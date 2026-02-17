@@ -2,7 +2,7 @@
 
 A FastAPI-based service that analyzes documents (PDF, DOCX, TXT) and extracts intelligent insights based on document type using Google Langextract.
 
-## ✨ Latest Updates
+## Functionalities
 
 - ✅ **Entity Deduplication** - No more duplicate entities! Each entity appears once with mention count
 - ✅ **Executive Summary** - Get a high-level overview of your document instantly
