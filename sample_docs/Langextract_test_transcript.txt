@@ -1,0 +1,69 @@
+
+CONFIDENTIAL BOARD MEETING TRANSCRIPT
+Company: Nexus Global Industries
+Date: October 24, 2023
+Time: 09:00 AM – 10:00 AM EST
+Location: Boardroom A / Virtual Conference Link
+Subject: Project Nexus – SAP S/4HANA Migration Strategy
+Scribe: Emily Vance, Corporate Secretary
+Attendees:
+Alex Mercer (CEO, Chair)
+Sarah Jenkins (CFO)
+David Chen (CIO)
+Maria Rodriguez (COO)
+James Thorne (CHRO)
+Priya Patel (CSO)
+Robert Sterling (External Consultant, Sterling SAP Solutions)
+Elizabeth Warren (Independent Board Director, Risk Committee)
+[09:00:00] Alex Mercer: Good morning, everyone. Thank you for joining on time. We have exactly one hour to finalize the go-ahead for Project Nexus. Our legacy ERP is crumbling, and we need to approve the SAP S/4HANA migration plan. David, kick us off with the executive summary.
+[09:02:15] David Chen: Thanks, Alex. As you know, our current system is fifteen years old. Maintenance costs are up 20% YoY. The proposal is to move to SAP S/4HANA Cloud. This gives us real-time analytics, AI integration, and streamlined supply chain management. We're looking at a phased rollout over 18 months.
+[09:04:30] Elizabeth Warren: David, I've reviewed the risk assessment. Eighteen months is optimistic. What's the contingency if data migration fails during the transition? We cannot afford downtime during Q4.
+[09:05:45] Robert Sterling: If I may interject, Elizabeth. Sterling Solutions has managed forty similar migrations. We propose a parallel run for six weeks. Legacy and SAP run simultaneously. Zero downtime risk, though it does increase resource load temporarily.
+[09:07:10] Maria Rodriguez: Resource load is my concern, Bob. My operations team is already at capacity. If you need key users for testing during peak season, production slows. I need assurance on the testing schedule.
+[09:08:30] David Chen: Maria, we've mapped the critical path. Testing happens in January and February. Q4 is safe. We'll use sandbox environments for most of the validation.
+[09:10:00] Sarah Jenkins: Let's talk about the sandbox costing money. I'm looking at the budget sheet. $12 million initial capex, plus $2.5 million annual licensing. That's a 15% increase in IT spend. Where are the efficiencies?
+[09:12:15] David Chen: The efficiencies aren't immediate, Sarah. Year one is neutral. Year two, we expect 10% reduction in manual reconciliation. Year three, ROI turns positive due to inventory optimization.
+[09:14:00] Priya Patel: From a sales perspective, I care about the customer interface. Will this migration affect our order-to-cash cycle? Last time we updated the CRM, we lost three days of data entry productivity.
+[09:15:30] Robert Sterling: Priya, valid point. This migration includes SAP Fiori apps for the sales team. Actually, it should reduce entry time by 30%. Mobile access is built-in. But, there is a learning curve.
+[09:17:00] James Thorne: Which brings me to Change Management. A system is only as good as the people using it. We have 2,000 employees touching the ERP. If we don't train them properly, adoption will fail, and morale will dip.
+[09:18:45] Alex Mercer: James, what's the training budget look like?
+[09:19:30] James Thorne: It's currently listed as "miscellaneous" in line item 404. I need that formalized. We need dedicated training modules, not just PDFs. I'm requesting an additional $300k for a dedicated Change Management team.
+[09:21:00] Sarah Jenkins: [Sighs] $300k wasn't in the original forecast, James.
+[09:21:45] James Thorne: Sarah, the cost of low adoption is higher. If sales reps can't invoice because they don't understand the new UI, revenue stalls. That costs more than $300k.
+[09:23:30] Alex Mercer: He's right. Sarah, can we reallocate from the contingency fund?
+[09:24:15] Sarah Jenkins: We can move $200k from the hardware contingency since we're going Cloud. The remaining $100k... I'll need to see a detailed training curriculum before I release it.
+[09:25:30] James Thorne: Deal. I'll have it to you by Friday.
+[09:26:00] Elizabeth Warren: I want to revisit the data security aspect. With Cloud S/4HANA, where is our data residing? Compliance is critical for our European clients under GDPR.
+[09:27:45] Robert Sterling: All data will be hosted in SAP's Frankfurt data centers for EU clients and Ashburn for US clients. It's fully compliant. We also implement role-based access control stricter than your current setup.
+[09:29:00] David Chen: I can confirm we've run penetration tests on the proposed architecture. It passes our security standards.
+[09:30:30] Maria Rodriguez: Okay, assuming security and budget are aligned, I need to talk about the Supply Chain module. We have customizations in the legacy system for our unique logistics partners. Will SAP handle those out of the box?
+[09:32:00] Robert Sterling: Maria, standard advice is to keep customization to a minimum to avoid upgrade issues later. However, we can use SAP BTP (Business Technology Platform) to build extensions without touching the core code.
+[09:33:45] Maria Rodriguez: As long as my logistics partners don't see a disruption in API connectivity, I'm supportive.
+[09:35:00] Priya Patel: I'll support this if the mobile interface is ready for the sales team by Phase 1. I don't want my team waiting until Phase 3 for mobile access.
+[09:36:30] David Chen: Priya, Mobile Fiori is part of Phase 1. I promise.
+[09:37:15] Alex Mercer: Okay, we're at the halfway mark. Let's summarize the blockers. Sarah needs the training curriculum. Maria needs API guarantees. Priya needs mobile confirmation. Elizabeth needs the compliance report.
+[09:38:30] Elizabeth Warren: I have the compliance report here, actually. Robert sent it over this morning. It looks satisfactory.
+[09:39:15] Sarah Jenkins: And if James delivers the curriculum by Friday, I can approve the budget adjustment.
+[09:40:00] James Thorne: You'll have it.
+[09:41:00] Alex Mercer: Great. Now, the timeline. David, you said 18 months. What is the hard launch date?
+[09:42:15] David Chen: We are targeting Go-Live on April 1st, 2025.
+[09:43:00] Maria Rodriguez: April 1st? That's right after our fiscal year-end. That works for us. Just don't make it April 2nd.
+[09:43:45] Robert Sterling: [Chuckles] We'll aim for April 1st. But I must advise, board members, scope creep is the enemy. If new requirements are added mid-project, that date slips.
+[09:45:00] Alex Mercer: Understood. I will issue a freeze on any new ERP feature requests from the executive team once this is signed. No tinkering.
+[09:46:30] Priya Patel: Just one thing. During the parallel run, will we have double work? My team hates data entry duplication.
+[09:47:45] Robert Sterling: There will be some duplication, Priya. That's the safety net. But we will automate 60% of the parallel entry using migration tools. It won't be manual keying.
+[09:49:00] Sarah Jenkins: I need to know about the ongoing maintenance costs after Year 3. Does the licensing scale with user count?
+[09:50:15] David Chen: It scales, but we've negotiated a capped rate for the first five years based on projected headcount growth.
+[09:51:30] Sarah Jenkins: Okay. That mitigates my risk.
+[09:52:00] Alex Mercer: Alright. We have consensus pending James's document and Sarah's final sign-off. Are there any fatal objections?
+[09:53:00] Elizabeth Warren: No fatal objections. Provided the GDPR data residency is strictly enforced.
+[09:53:30] Robert Sterling: Contractually binding, Elizabeth.
+[09:54:00] Maria Rodriguez: No objections from Operations.
+[09:54:30] Priya Patel: Sales is good, provided mobile is Phase 1.
+[09:55:00] James Thorne: HR is good, pending budget.
+[09:55:30] David Chen: IT is ready to execute.
+[09:56:00] Alex Mercer: Okay. Here are the action items. David, update the project charter with the mobile confirmation. James, send the curriculum to Sarah by Friday EOD. Sarah, release the provisional budget approval upon receipt. Robert, finalize the data residency clause.
+[09:57:30] Alex Mercer: We will vote formally via email once Sarah gives the green light on the budget adjustment. If I don't hear otherwise by Monday morning, we consider Project Nexus approved.
+[09:58:30] Elizabeth Warren: Motion to adjourn?
+[09:59:00] Alex Mercer: Seconded. Thank you, everyone. This is a big shift for Nexus, but necessary. Let's get it done.
+[10:00:00] Alex Mercer: Meeting adjourned.
